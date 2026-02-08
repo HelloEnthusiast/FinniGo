@@ -1,0 +1,8 @@
+
+{
+  "name": "FinniGo - Your Finnish Educational Bridge",
+  "description": "Professional educational consultancy website for FinniGo, providing post-arrival support and guidance for international students in Finland, extending from Unigo Kathmandu.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
