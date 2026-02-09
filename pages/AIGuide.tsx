@@ -37,7 +37,7 @@ const AIGuide: React.FC = () => {
         <div className="mb-6 flex items-center justify-between">
           <div>
             <h1 className="text-3xl font-extrabold text-slate-900 flex items-center gap-3">
-              <Sparkles className="text-blue-900" />
+              {/* <Sparkles className="text-blue-900" /> */}
               FinniGuide AI
             </h1>
             <p className="text-slate-500 text-sm">Real-time answers for your life in Finland</p>
@@ -50,7 +50,7 @@ const AIGuide: React.FC = () => {
 
         <div className="flex-1 bg-white rounded-3xl shadow-xl border border-slate-100 flex flex-col overflow-hidden">
           {/* Chat Window */}
-          <div 
+          <div
             ref={scrollRef}
             className="flex-1 overflow-y-auto p-6 space-y-6"
           >

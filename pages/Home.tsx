@@ -85,7 +85,7 @@ const Home: React.FC = () => {
           
           <div className="mt-12 text-center">
             <a href="#/services" className="inline-flex items-center gap-2 text-blue-900 font-bold hover:underline">
-              View All 20+ Support Services <ArrowRight size={18} />
+              View All 6+ Support Services <ArrowRight size={18} />
             </a>
           </div>
         </div>

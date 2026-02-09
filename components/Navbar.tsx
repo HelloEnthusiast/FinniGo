@@ -28,7 +28,7 @@ const Navbar: React.FC = () => {
             <a href="#/" className="text-2xl font-extrabold tracking-tight">
               <span style={{ color: COLORS.primary }}>Finni</span>
               <span style={{ color: COLORS.secondary }}>Go</span>
-              <span className="text-xs ml-1 font-medium text-slate-500 uppercase tracking-widest hidden sm:inline-block">by Unigo</span>
+              {/* <span className="text-xs ml-1 font-medium text-slate-500 uppercase tracking-widest hidden sm:inline-block">by Unigo</span> */}
             </a>
           </div>
 
@@ -47,7 +47,7 @@ const Navbar: React.FC = () => {
               href="#/ai-guide"
               className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-red-700 text-white text-sm font-bold shadow-lg shadow-red-600/20 hover:bg-red-500 transition-all transform hover:-translate-y-0.5"
             >
-              <Sparkles className="w-4 h-4" />
+              {/* <Sparkles className="w-4 h-4" /> */}
               Ask AI Guide
             </a>
           </div>

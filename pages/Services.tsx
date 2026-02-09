@@ -55,19 +55,57 @@ const Services: React.FC = () => {
         </div>
 
         {/* Custom Service Callout */}
-        <div className="mt-20 bg-red-700 rounded-[3rem] p-12 text-center text-white relative overflow-hidden">
-          <div className="relative z-10 space-y-6">
-            <h2 className="text-3xl font-bold">Need something specific?</h2>
-            <p className="text-red-100 max-w-xl mx-auto">From emergency medical guidance to finding specific cultural groceries, our Helsinki team is on standby for any custom assistance you might need.</p>
-            <a href="#/contact" className="inline-block px-10 py-4 bg-white text-red-700 font-bold rounded-xl hover:bg-amber-300 transition-colors">
-              Talk to our Helsinki Team
-            </a>
-          </div>
-          <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
-             <div className="absolute top-10 left-10 w-64 h-64 bg-white rounded-full blur-3xl"></div>
-             <div className="absolute bottom-10 right-10 w-64 h-64 bg-amber-400 rounded-full blur-3xl"></div>
-          </div>
-        </div>
+        {/* <div className="max-w-6xl mx-auto px-4">
+  <div className="mt-20 bg-red-700 rounded-[3rem] p-12 text-center text-white relative overflow-hidden">
+    <div className="relative z-10 space-y-6">
+      <h2 className="text-3xl font-bold">Need something specific?</h2>
+
+      <p className="text-red-100 max-w-xl mx-auto">
+        From emergency medical guidance to finding specific cultural groceries,
+        our Helsinki team is on standby for any custom assistance you might need.
+      </p>
+
+      <a
+        href="#/contact"
+        className="inline-block px-10 py-4 bg-white text-red-700 font-bold rounded-xl hover:bg-amber-300 transition-colors"
+      >
+        Talk to our Helsinki Team
+      </a>
+    </div>
+
+    <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
+      <div className="absolute top-10 left-10 w-64 h-64 bg-white rounded-full blur-3xl"></div>
+      <div className="absolute bottom-10 right-10 w-64 h-64 bg-amber-400 rounded-full blur-3xl"></div>
+    </div>
+  </div>
+</div> */}
+{/* Custom Service Callout */}
+<div className="max-w-6xl mx-auto px-4">
+  <div className="mt-20 bg-red-700 rounded-[3rem] p-12 text-center text-white relative overflow-hidden max-w-4xl mx-auto">
+    <div className="relative z-10 space-y-6">
+      <h2 className="text-3xl font-bold">Need something specific?</h2>
+
+      <p className="text-red-100 max-w-xl mx-auto">
+        From emergency medical guidance to finding specific cultural groceries,
+        our Helsinki team is on standby for any custom assistance you might need.
+      </p>
+
+      <a
+        href="#/contact"
+        className="inline-block px-10 py-4 bg-white text-red-700 font-bold rounded-xl hover:bg-amber-300 transition-colors"
+      >
+        Talk to our Helsinki Team
+      </a>
+    </div>
+
+    <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
+      <div className="absolute top-10 left-10 w-64 h-64 bg-white rounded-full blur-3xl"></div>
+      <div className="absolute bottom-10 right-10 w-64 h-64 bg-amber-400 rounded-full blur-3xl"></div>
+    </div>
+  </div>
+</div>
+
+
       </div>
     </div>
   );
