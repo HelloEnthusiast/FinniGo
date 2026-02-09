@@ -116,7 +116,7 @@ const Home: React.FC = () => {
             <div className="absolute top-0 right-0 w-32 h-32 bg-amber-400/10 rounded-full blur-3xl -mr-16 -mt-16"></div>
             <div className="relative z-10 flex flex-col md:flex-row items-center gap-10">
               <div className="w-32 h-32 shrink-0 rounded-2xl overflow-hidden ring-4 ring-slate-50 shadow-lg">
-                <img src="/public/images/vijayaaaa.png" className="w-full h-full object-cover" alt="Director" />
+                <img src="/images/vijayaaaa.png" className="w-full h-full object-cover" alt="Director" />
               </div>
               <div className="space-y-4">
                 <p className="text-xl italic text-slate-700 leading-relaxed">
