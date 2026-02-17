@@ -15,11 +15,12 @@ const Home: React.FC = () => {
               <Zap size={16} />
               <span>The Next Chapter of Unigo in Finland</span>
             </div> */}
-            <h1 className="text-5xl lg:text-7xl font-extrabold text-slate-900 leading-tight">
-              Study, Live & <span className="text-red-700 italic ">Thrive</span> in Finland.
+            <h1 className="text-3xl lg:text-5xl font-extrabold text-slate-900 leading-tight">
+            Your Complete Global Study & Career Journey – From Dream to Destination.
             </h1>
             <p className="text-xl text-slate-600 max-w-lg leading-relaxed">
-              We don't just help you get admitted; we ensure you succeed after you land.
+            Powered by AI. Supported by Humans. Backed by Real Results.
+
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a 

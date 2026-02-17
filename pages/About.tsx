@@ -37,7 +37,8 @@ const About: React.FC = () => {
               About FinniGo
             </p>
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Your bridge to Finnish education & life
+
+            FinniGo Career and Solutions Oy is a Finland-based education and career solutions company helping students and jobseekers succeed globally — before, during and after their international journey.
             </h2>
 
             <p className="text-slate-600 leading-relaxed mb-5">
