@@ -29,6 +29,39 @@ export const NAV_LINKS: NavItem[] = [
   { label: 'Contact', href: '#/contact' },
 ];
 
+export const UnigoApp = {
+  name: 'The UNIGO App',
+  description: 'Meet UNIGO – The Future of Study Abroad',
+  features: [
+    'AI-Powered Profile Screening',
+    'Smart University & Course Matching',
+    'Digital Counseling',
+    '24/7 Live Support',
+    '5% Tuition Fee Cashback (Partner Universities)',
+    'Visa & Financial Documentation Guidance',
+    'Pre-Departure Orientation',
+    'Post-Arrival Support',
+    'Student Tools for Life Abroad',
+  ],
+  cta: 'Join Waitlist'
+};  
+
+export const LanguageAcademy = {
+  name: 'Language Academy',
+  description: 'Learn Languages with Technology + Real Tutors',
+  features: [
+    'Beginner to Advanced Levels',
+    'Interactive Online Classes',
+    'Experienced Native Instructors',
+    'Cultural Immersion Activities',
+    'Flexible Scheduling',
+    'Personalized Learning Plans',
+    'Certificate of Completion',
+  ],
+  ctaPrimary: 'Enroll Now',
+  ctaSecondary: 'View Courses'
+};
+
 export const SERVICES: Service[] = [
   {
     id: 'airport-pickup',
