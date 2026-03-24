@@ -1,7 +1,6 @@
-
-import React, { useState, useEffect } from 'react';
-import { Menu, X, Globe, Sparkles } from 'lucide-react';
-import { NAV_LINKS, COLORS } from '../constants';
+import React, { useState, useEffect } from "react";
+import { Menu, X, Globe, Sparkles } from "lucide-react";
+import { NAV_LINKS, COLORS } from "../constants";
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,25 +10,24 @@ const Navbar: React.FC = () => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 20);
     };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-300 ${
-      scrolled ? 'bg-white/90 backdrop-blur-md shadow-sm py-3' : 'bg-transparent py-5'
-    }`}>
+    <nav
+      className={`fixed w-full z-50 transition-all duration-300 ${
+        scrolled
+          ? "bg-white/90 backdrop-blur-md shadow-sm py-3"
+          : "bg-transparent py-5"
+      }`}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-2">
-            <div className="bg-red-700 text-white p-2 rounded-lg">
-              <Globe className="w-6 h-6" />
+            <div className=" text-white p-2 rounded-lg">
+              <img className="h-7" src="/public/images/logo.png" alt="" />
             </div>
-            <a href="#/" className="text-2xl font-extrabold tracking-tight">
-              <span style={{ color: COLORS.primary }}>Finni</span>
-              <span style={{ color: COLORS.secondary }}>Go</span>
-              {/* <span className="text-xs ml-1 font-medium text-slate-500 uppercase tracking-widest hidden sm:inline-block">by Unigo</span> */}
-            </a>
           </div>
 
           {/* Desktop Nav */}
