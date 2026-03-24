@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
         <div className="space-y-6">
           <div className="flex items-center gap-2">
             
-              <img className="h-10" src="/public/images/logo-reverse.png" alt="Logo" />
+              <img className="h-10" src="/public/images/Logo-reverse.png" alt="Logo" />
            
           </div>
           <p className="text-sm leading-relaxed text-white/80">

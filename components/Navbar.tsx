@@ -26,7 +26,7 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-2">
             <div className=" text-white p-2 rounded-lg">
-              <img className="h-7" src="/public/images/logo.png" alt="" />
+              <img className="h-7" src="/public/images/Logo.png" alt="error loading logo" />
             </div>
           </div>
 
