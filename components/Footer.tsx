@@ -8,10 +8,9 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
         <div className="space-y-6">
           <div className="flex items-center gap-2">
-            <span className="text-2xl font-extrabold tracking-tight">
-              <span style={{ color: 'white' }}>Finni</span>
-              <span style={{ color: 'white' }}>Go</span>
-            </span>
+            
+              <img className="h-10" src="/public/images/logo-reverse.png" alt="Logo" />
+           
           </div>
           <p className="text-sm leading-relaxed text-white/80">
             A premium educational consultancy bridge between Nepal and Finland. Empowering international students with post-arrival support, career guidance, and academic excellence.
